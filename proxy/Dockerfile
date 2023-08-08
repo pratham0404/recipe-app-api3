@@ -1,5 +1,5 @@
 FROM nginxinc/nginx-unprivileged:1-alpine
-LABEL maintainer="pratham_sharma"
+LABEL maintainer="pratham"
 
 COPY ./default.conf.tpl /etc/nginx/default.conf.tpl
 COPY ./uwsgi_params /etc/nginx/uwsgi_params
